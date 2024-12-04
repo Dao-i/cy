@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>生日快乐</title>
+    <link rel="stylesheet" href="sr.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="birthdayCanvas"></canvas>
+        <audio id="birthdayMusic" loop>
+            <source src="https://freetyst.nf.migu.cn/public/product03/2017/09/21/2017%E5%B9%B409%E6%9C%8814%E6%97%A516%E7%82%B932%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E4%B8%AD%E5%8A%B2%E8%BF%9C%E4%B8%9C963%E9%A6%96/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_128_16_Stero/%E9%9D%A2%E4%BC%9A%E8%8F%9C-%E6%9E%97%E7%94%9F%E7%A5%A5.mp3?channelid=02&msisdn=770fc644-a89a-4d78-b27b-2269fef43353&Tim=1728484423066&Key=50cae90d104d1296" type="audio/mpeg">
+        </audio>
+        <div class="audio-controls">
+            <button id="musicToggle"><span class="music-icon">🔇</span></button>
+            <input id="volumeControl" type="range" min="0" max="1" step="0.1" value="0.5">
+        </div>
+    </div>
+    <script src="sr.js"></script>
+</body>
+</html>
